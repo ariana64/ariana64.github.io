@@ -340,8 +340,9 @@ figcaption{
   }
 
   p {
-    margin-left: 5%;
+    margin-left: 8%;
     font-size: 20px;
+    width: 100%;
   }
 
   nav {
