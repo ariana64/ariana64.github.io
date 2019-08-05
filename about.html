@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Home</title>
+  <link rel="stylesheet" type="text/css" href="styles/all.css" media="all">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="scripts/jquery-3.3.1.min.js" type="text/javascript"></script>
+  <script src="scripts/about-nav-dropdown.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <div class="topnav">
+      <nav>
+        <ul>
+          <li class="navItem"><a href="index.html">Home</a></li>
+          <li class="navItem"><a href="about.html">About</a></li>
+          <li class="navItem"><a href="port.html" id="aboutNavItem">Portfolio<span class="downCaret"> &#x25BC;</span></a>
+            <ul id="aboutDropdown" class="nav-dropdown nav-hidden">
+              <li id="first_link"><a href="port.html#websites">Website Design</a></li>
+              <li id="second_link"><a href="port.html#graphicDesigns">Graphic Design</a></li>
+              <li id="third_link"><a href="port.html#arts">Art Projects</a></li>
+            </ul>
+          </li>
+          <!-- <li class="navItem"><a href="resume.html">C</a></li> -->
+          <!-- <li class="navItem"><a href="contact.html">Contact</a></li> -->
+        </ul>
+      </nav>
+    </div>
+    <div id="about_content">
+      <div id="first_part">
+        <div>
+        <figure id="prof_pic1">
+          <!-- Source: Lea Nassar!-->
+          <img src="images/prof_pic1.JPG" alt="My Profile Picture" />
+          <figcaption> Source: Lea Nassar
+          </figcaption>
+        </figure>
+      </div>
+        <div id="about_text">
+        <p class="main"> Hi, I'm Ariana</p>
+        <p> I am a rising third year student at Cornell University pursuing a degree in Information Science with concentrations in User Experience and Data Science. </p>
+        <p> I enjoy being creative in a field that allows me to explore the design spectrum and its interaction with users. Starting one of my projects always excites me since the planning and prototyping phases help me develop my vision for a product.</p>
+        <p> If I am not working on a project, you could find me trying out new food places, catching up on current events, or sketching out painting ideas.</p>
+        <p>I can be contacted at <a href="mailto:ag2228@cornell.edu"><span class="important">ag2228@cornell.edu</span>.</a></p>
+        <p id="resume"><a href="documents/resume.19.08.04.pdf" target="_blank">Resume</a> ◈ <a href="https://www.linkedin.com/in/ariana-g-00b5b9126/" target="_blank">LinkedIn</a><p>
+        </div>
+      </div>
+      <div>
+        <figure id="prof_pic">
+          <!-- Source: Lea Nassar!-->
+          <img src="images/prof_pic1.JPG" alt="My Profile Picture" />
+          <figcaption> Source: Lea Nassar
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+
+    <footer>
+      <p class="copyright"> © 2019 Ariana Gamarra </p>
+    </footer>
+</body>
+
+</html>
